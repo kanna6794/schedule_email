@@ -7,26 +7,30 @@ npm install cron
 
 The port run on http://localhost:2001/
 
-Firt Create user api
+//***Create user api *** //
 http://localhost:2001/api/v1.0/createuser
-Request 
+Request :
 {"email":"kdhasan24.kd@gmail.com",
 "subject":"sdfsf",
-"schedule":"2" ////schedule for miunts
+"schedule":"2" ////schedule in minutes
 }
 
-List api
+//*** List api ***//
 http://localhost:2001/api/v1.0/getuser
-Edit user
+
+//*** Edit user ***//
 http://localhost:2001/api/v1.0/edituser
-{"email":"kdhasan24.kd@gmail.com",
+
+{
+  "email":"kdhasan24.kd@gmail.com",
 }
 
-//update user dteails
+//*** update schedule details ***//
 http://localhost:2001/api/v1.0/updateschedule
 
-{"email":"kdhasan24.kd@gmail.com",
-"schedule":"12"
+{
+    "email":"kdhasan24.kd@gmail.com",
+    "schedule":"12" ////schedule in minutes
 }
 
 

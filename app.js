@@ -162,7 +162,7 @@ app.use('/api', function (err, req, res, next) {
 });
 
 app.listen(2001,  process.env.SERVER_HOST, function () {
-  console.log('Express server listening on port ' + process.env.SERVER_HOST + port);
+  console.log('Express server listening on port ' + process.env.SERVER_HOST + 2001);
 });
 
 
